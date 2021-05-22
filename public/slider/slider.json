@@ -1,0 +1,68 @@
+[
+  {
+    "name": "NOS Journaal",
+    "channel": {
+      "name": "NPO 1",
+      "image": "npo1.jpeg"
+    },
+    "next": {
+      "name": "NOS Journaal",
+      "time": "12:20"
+    }
+  },
+  {
+    "name": "De Nieuws BV",
+    "channel": {
+      "name": "NPO 2",
+      "image": "npo2.jpeg"
+    },
+    "next": {
+      "name": "Close Up: Mae West - Dirty Blonde",
+      "time": "13:35"
+    }
+  },
+  {
+    "name": "Sesamstraant",
+    "channel": {
+      "name": "NPO Zapp",
+      "image": "npo-zapp.jpeg"
+    },
+    "next": {
+      "name": "Zin in Zappelin",
+      "time": "12:19"
+    }
+  },
+  {
+    "name": "Op1",
+    "channel": {
+      "name": "NPO 1 Extra",
+      "image": "npo1-extra.jpeg"
+    },
+    "next": {
+      "name": "Tijd voor Max",
+      "time": "11:50"
+    }
+  },
+  {
+    "name": "Kunststof talkshow Live!",
+    "channel": {
+      "name": "NPO 2 Extra",
+      "image": "npo2-extra.jpeg"
+    },
+    "next": {
+      "name": "Trifonov Plays Chopin",
+      "time": "12:15"
+    }
+  },
+  {
+    "name": "Inui",
+    "channel": {
+      "name": "NPO Zappeling Extra",
+      "image": "npo-zappelin-extra.jpeg"
+    },
+    "next": {
+      "name": "Inui",
+      "time": "11:30"
+    }
+  }
+]

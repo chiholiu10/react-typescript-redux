@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Spraakmakers",
+    "image": "spraakmakers.jpeg",
+    "channel": {
+      "name": "NPO Radio 1",
+      "image": "logo-npo-radio-1.png"
+    },
+    "next": {
+      "name": "1op1",
+      "time": "11:30"
+    }
+  },
+  {
+    "name": "Aan de slag!",
+    "image": "aan-de-slag.jpeg",
+    "channel": {
+      "name": "NPO Radio 2",
+      "image": "logo-npo-radio-2.png"
+    },
+    "next": {
+      "name": "Gijs 2.0",
+      "time": "12:00"
+    }
+  },
+  {
+    "name": "Het Betere Werk",
+    "image": "het-betere-werk.jpeg",
+    "channel": {
+      "name": "NPO Radio 3FM",
+      "image": "logo-npo-radio-3fm.png"
+    },
+    "next": {
+      "name": "Radio Op 'n Broodje",
+      "time": "12:00"
+    }
+  },
+  {
+    "name": "De Klassieken",
+    "image": "de-klassieken.jpeg",
+    "channel": {
+      "name": "NPO Radio 4",
+      "image": "logo-npo-radio-4.png"
+    },
+    "next": {
+      "name": "De Muziekfabrik",
+      "time": "12:00"
+    }
+  },
+  {
+    "name": "Arbeidsvitaminen",
+    "image": "arbeidsvitaminen.jpeg",
+    "channel": {
+      "name": "NPO Radio 5",
+      "image": "logo-npo-radio-5.png"
+    },
+    "next": {
+      "name": "Lunch Lekker met Daniel Dekke",
+      "time": "12:00"
+    }
+  }
+]
