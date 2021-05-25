@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Live",
+    "anchor": "/live"
+  },
+  {
+    "name": "Gids",
+    "anchor": "/gids"
+  },
+  {
+    "name": "Kind",
+    "anchor": "/kind"
+  },
+  {
+    "name": "Programma's",
+    "anchor": "/programmas"
+  },
+  {
+    "name": "Registreren",
+    "anchor": "/registreren"
+  }
+]

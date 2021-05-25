@@ -1,0 +1,150 @@
+[
+  {
+    "footer_title": "Omroepen",
+    "footer_links": [
+      {
+        "footer_text": "AVROTROS",
+        "anchor": "https://www.avrotros.nl/"
+      },
+      {
+        "footer_text": "BNNVARA",
+        "anchor": "https://www.bnnvara.nl/"
+      },
+      {
+        "footer_text": "AVROTROS",
+        "anchor": "https://www.avrotros.nl/"
+      },
+      {
+        "footer_text": "EO",
+        "anchor": "https://www.eo.nl/"
+      },
+      {
+        "footer_text": "HUMAN",
+        "anchor": "https://www.human.nl/"
+      },
+      {
+        "footer_text": "KRO_NCRV",
+        "anchor": "https://www.kro_ncrv.nl/"
+      },
+      {
+        "footer_text": "MAX",
+        "anchor": "https://www.omroepmax.nl/"
+      },
+      {
+        "footer_text": "NOS",
+        "anchor": "https://www.nos.nl/"
+      },
+      {
+        "footer_text": "NTR",
+        "anchor": "https://www.ntr.nl/"
+      },
+      {
+        "footer_text": "PowNed",
+        "anchor": "https://www.powned.tv/"
+      },
+      {
+        "footer_text": "VPRO",
+        "anchor": "https://www.vpro.nl/"
+      },
+      {
+        "footer_text": "WNL",
+        "anchor": "https://www.wnl.tv/"
+      }
+    ]
+  },
+  {
+    "footer_title": "Organisatie",
+    "footer_links": [
+      {
+        "footer_text": "Over NPO",
+        "anchor": "https://over.npo.nl/"
+      },
+      {
+        "footer_text": "Werken bij NPO",
+        "anchor": "https://werkenbijnpo.nl"
+      },
+      {
+        "footer_text": "Pers",
+        "anchor": "https://pers.npo.nl/"
+      },
+      {
+        "footer_text": "Vraag en antwoord",
+        "anchor": "https://service.npo.nl/"
+      }
+    ]
+  },
+  {
+    "footer_title": "Ook NPO",
+    "footer_links": [
+      {
+        "footer_text": "Zappelin",
+        "anchor": "https://www.zappelin.nl/"
+      },
+      {
+        "footer_text": "Zapp",
+        "anchor": "https://www.zapp.nl/"
+      },
+      {
+        "footer_text": "NPO 3",
+        "anchor": "https://service.npo.nl/"
+      },
+      {
+        "footer_text": "https://www.npo3.nl/",
+        "anchor": "https://service.npo.nl/"
+      },
+      {
+        "footer_text": "BVN",
+        "anchor": "https://www.bvn.tv/"
+      },
+      {
+        "footer_text": "NPO extra",
+        "anchor": "https://service.npo.nl/vragen/17"
+      },
+      {
+        "footer_text": "NPO Campus",
+        "anchor": "https://www.npocampus.nl/"
+      },
+      {
+        "footer_text": "NPO Kennis",
+        "anchor": "https://npokennis.nl"
+      },
+      {
+        "footer_text": "NPO_fonds",
+        "anchor": "https://over.npo.nl/npo_fonds"
+      },
+      {
+        "footer_text": "Ombudsman",
+        "anchor": "https://over.npo.nl/ombudsman"
+      },
+      {
+        "footer_text": "Net in Nederland",
+        "anchor": "https://www.netinnederland.nl/"
+      }
+    ]
+  },
+  {
+    "footer_title": "Volg de NPO",
+    "footer_links": [
+      {
+        "footer_text": "iPad & iPhone",
+        "anchor": "https://itunes.apple.com/nl/app/uitzending_gemist/id323998316?mt=8"
+      },
+      {
+        "footer_text": "Android",
+        "anchor": "https://play.google.com/store/apps/details?id=nl.uitzendinggemist"
+      },
+      {
+        "footer_text": "Instagram",
+        "anchor": "https://instagram.com/npo.nl"
+      },
+      {
+        "footer_text": "Facebook",
+        "anchor": "http://facebook.com/NPOapp"
+      },
+      {
+        "footer_text": "Nieuwsbrief",
+        "anchor": "https://omroep.dmd.omroep.nl/x/plugin/?pName=subscribe&amp;MIDRID=S7Y1swQAA98&amp;pLang=nl&amp;Z=543417650"
+      }
+    ]
+  }
+]
