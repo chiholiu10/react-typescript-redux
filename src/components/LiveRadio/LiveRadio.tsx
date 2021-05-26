@@ -6,7 +6,7 @@ import { LiveRadioContainer, SliderLogo, SliderSchedule, SliderContent, SliderBl
 import { SliderImage, SliderTitle, ComponentTitle, SlideBlock, SlideBackground } from '../../styles/General.styles';
 
 export const LiveRadio: FC<LiveRadioProps & LiveRadioTypes> = ({ liveRadioData }) => {
-  let settings = {
+  const settings = {
     infinite: true,
     speed: 500,
     slidesToShow: 5,

@@ -10,7 +10,7 @@ export const Footer: FC<FooterProps> = ({ footerData }) => {
       <FooterUnorderedList>
         {item.footer_links.map((text: any, index: number) => (
           <FooterListItems key={index + 1}>
-            <Anchor href={text.footer_anchor}>{text.footer_text}</Anchor>
+            <Anchor href={text.footer_anchor} target="_blank">{text.footer_text}</Anchor>
           </FooterListItems>
         ))}
       </FooterUnorderedList>
