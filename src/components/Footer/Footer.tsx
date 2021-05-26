@@ -3,14 +3,13 @@ import { FooterContainer, FooterColumn, FooterTitle, FooterUnorderedList, Footer
 import { connect, ConnectedProps } from "react-redux";
 
 export const Footer: FC<FooterProps> = ({ footerData }) => {
-  console.log(footerData);
   let footerContent = footerData.map((item: { footer_title: string; footer_links: Array<string>; }, index: number) => (
     <FooterColumn key={index}>
       <FooterTitle>{item.footer_title}</FooterTitle>
       <FooterUnorderedList>
         {item.footer_links.map((text: any, index: number) => (
-          <FooterListItems key={index + 1}>
-            <Anchor href={text.footer_anchor} target="_blank">{text.footer_text}</Anchor>
+          <FooterListItems key={index}>
+            <Anchor href={text.anchor} rel="noopener noreferrer" target="_blank">{text.footer_text}</Anchor>
           </FooterListItems>
         ))}
       </FooterUnorderedList>

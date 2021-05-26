@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { breakpoint } from "../../styles/BreakPoint";
 import theme from '../../styles/Themes';
 
 export const LiveRadioContainer = styled.section`
@@ -19,7 +20,7 @@ export const SliderBlock = styled.div`
   }
 `;
 
-export const SliderLogo = styled.img`
+export const SliderLogo = styled.div`
   position: absolute;
   width: 50px;
   left: 5px;
@@ -29,12 +30,23 @@ export const SliderLogo = styled.img`
 export const SliderSchedule = styled.span`
   display: inline-flex;
   font-size: 14px;
-  font-weight: normal;
+  font-weight: 500;
+  color: ${theme.colors.lightGrey};
 `;
 
 export const SliderContent = styled.div`
   padding-top: 10px;
   h3 {
     position: relative;
+    margin-top: -5px;
   }
+  ${breakpoint.md`
+    h3 {
+      margin-bottom: -7.5px;
+    }
+  `}
+`;
+
+export const Logo = styled.img`
+    width: 100%;
 `;

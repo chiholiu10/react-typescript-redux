@@ -8,7 +8,11 @@ export const Nav = styled.nav`
   align-items: center;
   position: fixed;
   z-index: 100;
-  width: 100%;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
   background-color: ${theme.colors.black};
   ${breakpoint.md`
     padding-top: 3rem;

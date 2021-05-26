@@ -27,10 +27,10 @@ export const FooterContainer = styled.footer`
 `;
 
 export const FooterColumn = styled.div`
-  padding: 10px 0;
+  width: 90%;
   ${breakpoint.md`
     flex: 0 0 25%;
-`}
+  `}
   ${breakpoint.lg`
     &:nth-child(1) {
       flex: 0 0 37%;
@@ -46,22 +46,35 @@ export const FooterColumn = styled.div`
 `;
 
 export const FooterTitle = styled.h2`
+  font-size: 17px;
   line-height: 2.4rem;
-  font-size: 24px;
-  margin-bottom: 12px;
+  ${breakpoint.md`
+    margin-bottom: 12px;
+    font-size: 24px;
+  `}
 `;
 
 export const FooterUnorderedList = styled.ul`
-
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+  ${breakpoint.md`
+    display: block;
+    flex: none;
+  `}
 `;
 
-
 export const FooterListItems = styled.li`
-  font-size: 16px;
   color: ${theme.colors.lightGrey};
-  line-height: 30px;
+  flex-direction: row;
+  padding-right: 10px;
 `;
 
 export const Anchor = styled.a`
-  
+  font-size: 14px;
+  line-height: 20px;
+  ${breakpoint.md`
+    line-height: 30px;
+    font-size: 16px;
+  `}
 `;

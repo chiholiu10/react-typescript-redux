@@ -2,10 +2,11 @@ import { FC, memo } from "react";
 import { connect, ConnectedProps } from "react-redux";
 import { LiveTvTypes } from '../../types/types';
 import Slider from "react-slick";
-import { LiveTvContainer } from './LiveTV.styles';
-import { SliderImage, SliderTitle, ComponentTitle, SlideBlock, SlideBackground } from '../../styles/General.styles';
+import { LiveTvContainer, SliderSchedule, SliderTextBlock } from './LiveTV.styles';
+import { SliderImage, SliderTitle, ComponentTitle, SlideBlock, SlideBackground, SlickContainer } from '../../styles/General.styles';
 
 export const LiveTV: FC<LiveTVProps & LiveTvTypes> = ({ liveTvData }) => {
+  console.log(liveTvData);
   const settings = {
     infinite: true,
     speed: 500,
@@ -24,16 +25,20 @@ export const LiveTV: FC<LiveTVProps & LiveTvTypes> = ({ liveTvData }) => {
   return (
     <LiveTvContainer>
       <ComponentTitle>Live TV</ComponentTitle>
-      <Slider {...settings}>
-        {liveTvData.map((tv: any, index: number) => (
-          <SlideBlock key={index}>
-            <SlideBackground />
-            <SliderImage src={"slider/" + tv.channel.image} />
-            <SliderTitle>{tv.channel.name}</SliderTitle>
-
-          </SlideBlock>
-        ))}
-      </Slider>
+      <SlickContainer>
+        <Slider {...settings}>
+          {liveTvData.map((tv: any, index: number) => (
+            <SlideBlock key={index}>
+              <SlideBackground />
+              <SliderImage src={"slider/" + tv.channel.image} />
+              <SliderTextBlock>
+                <SliderTitle>{tv.channel.name}</SliderTitle>
+                <SliderSchedule>Straks: {tv.next.time} - {tv.next.name}</SliderSchedule>
+              </SliderTextBlock>
+            </SlideBlock>
+          ))}
+        </Slider>
+      </SlickContainer>
     </LiveTvContainer>
   );
 };

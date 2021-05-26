@@ -5,6 +5,7 @@ import LiveRadio from './components/LiveRadio/LiveRadio';
 import Footer from './components/Footer/Footer';
 import { useDispatch } from 'react-redux';
 import { getData } from './actions';
+import { GlobalFonts } from './styles/GlobalFonts';
 import { GlobalStyleReset } from "./styles/CssReset";
 import { ThemeProvider } from "styled-components";
 import history from "./history";
@@ -37,10 +38,11 @@ export const App: FC = () => {
       }
     };
     fetchData();
-  }, []);
+  }, [dispatch]);
 
   return (
     <ThemeProvider theme={theme}>
+      <GlobalFonts />
       <GlobalStyleReset />
       <Navbar />
       <LiveTV />
