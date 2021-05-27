@@ -28,7 +28,6 @@ export const App: FC = () => {
           const responseRadio = responses[1];
           const responseNavbar = responses[2];
           const responseFooter = responses[3];
-          console.log(responseNavbar.data, responseFooter.data);
           dispatch(getData(responseTV.data, responseRadio.data, responseNavbar.data, responseFooter.data));
         })
         );
