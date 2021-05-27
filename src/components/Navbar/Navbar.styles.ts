@@ -9,6 +9,8 @@ export const Nav = styled.nav`
   position: fixed;
   z-index: 100;
   width: 100%;
+  left: 0;
+  right: 0;
   background-color: ${theme.colors.black};
   ${breakpoint.md`
     padding-top: 3rem;

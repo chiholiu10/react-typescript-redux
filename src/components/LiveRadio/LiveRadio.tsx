@@ -14,13 +14,6 @@ export const LiveRadio: FC<LiveRadioProps & LiveRadioTypes> = ({ liveRadioData }
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 1092,
-        settings: {
-          slidesToShow: 5,
-          slidesToScroll: 1
-        }
-      },
-      {
         breakpoint: 768,
         settings: {
           slidesToShow: 3,

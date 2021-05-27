@@ -6,7 +6,6 @@ import { LiveTvContainer, SliderSchedule, SliderTextBlock } from './LiveTV.style
 import { SliderImage, SliderTitle, ComponentTitle, SlideBlock, SlideBackground, SlickContainer } from '../../styles/General.styles';
 
 export const LiveTV: FC<LiveTVProps & LiveTvTypes> = ({ liveTvData }) => {
-  console.log(liveTvData);
   const settings = {
     infinite: true,
     speed: 500,
