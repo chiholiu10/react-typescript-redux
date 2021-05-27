@@ -29,7 +29,7 @@ export const LiveTV: FC<LiveTVProps & LiveTvTypes> = ({ liveTvData }) => {
           {liveTvData.map((tv: { channel: { image: string, name: string; }, next: { time: string, name: string; }; }, index: number) => (
             <SlideBlock key={index}>
               <SlideBackground />
-              <SliderImage src={"slider/" + tv.channel.image} />
+              <SliderImage src={"slider/" + tv.channel.image} alt={tv.channel.name} />
               <SliderTextBlock>
                 <SliderTitle>{tv.channel.name}</SliderTitle>
                 <SliderSchedule>Straks: {tv.next.time} - {tv.next.name}</SliderSchedule>

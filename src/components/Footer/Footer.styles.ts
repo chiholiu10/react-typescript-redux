@@ -73,8 +73,10 @@ export const FooterListItems = styled.li`
 export const Anchor = styled.a`
   font-size: 14px;
   line-height: 20px;
+  display: block;
   ${breakpoint.md`
     line-height: 30px;
     font-size: 16px;
+    display: inline-flex;
   `}
 `;

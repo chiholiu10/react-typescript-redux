@@ -30,6 +30,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "lint:css": "stylelint './components/**/*.ts'",
     "lint": "eslint . --ext .js,.ts",
     "lint:fix": "eslint . --ext .js, .ts --fix",
     "eject": "react-scripts eject"
@@ -58,8 +59,6 @@
     "@types/react-dom": "^17.0.5",
     "@types/react-router-dom": "^5.1.7",
     "@types/react-slick": "^0.23.4",
-    "@types/styled-components": "^5.1.9",
-    "enzyme": "^3.11.0",
-    "enzyme-adapter-react-16": "^1.15.6"
+    "@types/styled-components": "^5.1.9"
   }
 }

@@ -31,7 +31,7 @@ export const Navbar: FC<NavbarProps> = ({ navbarData }) => {
         <NavSpan />
         <NavSpan />
       </NavHamburgerButton>
-      <NavbarLogo src={"https://www.npostart.nl/images/npo-start.svg"} />
+      <NavbarLogo src={"https://www.npostart.nl/images/npo-start.svg"} alt="nos-logo" />
       <NavbarUnorderedList open={open} >
         {navbarTabs}
       </NavbarUnorderedList>
