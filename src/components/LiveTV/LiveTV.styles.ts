@@ -8,10 +8,11 @@ export const LiveTvContainer = styled.section`
 export const SliderSchedule = styled.span`
   display: inline-flex;
   font-size: 14px;
-  font-weight: normal;te
+  font-weight: normal;
 `;
 
 export const SliderTextBlock = styled.div`
+  position: absolute;
   h3 {
     position: relative;
     margin-top: 5px;
@@ -19,7 +20,7 @@ export const SliderTextBlock = styled.div`
   ${breakpoint.md`
     // safari bug so text-shadow px is low
     text-shadow: 0 0px 1px rgb(0 0 0 / 10%);
-    position: absolute;
+
     bottom: 0;
     left: 20px;
     h3 {

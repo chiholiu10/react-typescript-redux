@@ -3,9 +3,9 @@ import { breakpoint } from "../../styles/BreakPoint";
 import theme from '../../styles/Themes';
 
 export const LiveRadioContainer = styled.section`
-  .Slider-button-prev,
-  .Slider-button-next {
-    margin-top: -50px;
+  .slick-prev,
+  .slick-next {
+    margin-top: -25px;
   }
 `;
 
