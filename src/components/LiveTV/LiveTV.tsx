@@ -26,7 +26,7 @@ export const LiveTV: FC<LiveTVProps & LiveTvTypes> = ({ liveTvData }) => {
       <ComponentTitle>Live TV</ComponentTitle>
       <SlickContainer>
         <Slider {...settings}>
-          {liveTvData.map((tv: any, index: number) => (
+          {liveTvData.map((tv: { channel: { image: string, name: string; }, next: { time: string, name: string; }; }, index: number) => (
             <SlideBlock key={index}>
               <SlideBackground />
               <SliderImage src={"slider/" + tv.channel.image} />

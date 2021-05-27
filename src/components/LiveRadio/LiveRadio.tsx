@@ -5,8 +5,8 @@ import Slider from "react-slick";
 import { LiveRadioContainer, SliderLogo, SliderSchedule, SliderContent, SliderBlock, Logo } from './LiveRadio.styles';
 import { SliderImage, SliderTitle, ComponentTitle, SlideBlock, SlideBackground, SlickContainer } from '../../styles/General.styles';
 
-export const LiveRadio: FC<LiveRadioProps & LiveRadioTypes> = ({ liveRadioData }) => {
 
+export const LiveRadio: FC<LiveRadioProps & LiveRadioTypes> = ({ liveRadioData }) => {
   const settings = {
     infinite: true,
     speed: 500,
@@ -34,7 +34,7 @@ export const LiveRadio: FC<LiveRadioProps & LiveRadioTypes> = ({ liveRadioData }
       <ComponentTitle>Live Radio</ComponentTitle>
       <SlickContainer>
         <Slider {...settings}>
-          {liveRadioData.map((tv: any, index: number) => (
+          {liveRadioData.map((tv: { image: string, name: string, channel: { image: string, name: string; }, next: { time: string, name: string; }; }, index: number) => (
             <SlideBlock key={index}>
               <SliderBlock>
                 <SlideBackground />
